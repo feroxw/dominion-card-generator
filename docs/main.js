@@ -419,7 +419,7 @@ function initCardImageGenerator() {
             }
         }
 
-        function writeCreatorCredit(x, y, color, bold, size = 31) {
+        function writeCreatorCredit(x, y, color, bold, size = 33) {
             var creatorCredit = document.getElementById("creator").value;
             if (creatorCredit) {
                 context.textAlign = "right";
